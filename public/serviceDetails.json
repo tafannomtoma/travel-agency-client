@@ -1,0 +1,52 @@
+{
+    "service": [
+        {
+            "name": "Sunset view of beautiful lakeside resident",
+            "id": 1,
+            "price": "$1200",
+            "plan": "4D/5N",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2rIQdid_qTRA-ZmnVNsXFE0hma5Jd5WA5p9CcuXTzuEUkhYnhu2-yhCaRr66A9dbB1G8&usqp=CAU",
+            "detail": "Centuries before the Turkish occupation of Greece, back in the 11th-century AD, the little known terrain of Meteora was occupied by monks. The intoxicating combination of rugged cliffs— equal parts history and geological marvels—made it the country’s most dynamic stretch of land."
+        },
+        {
+            "name": "Experience the natural beauty of island",
+            "id": 2,
+            "price": "$1050",
+            "plan": "3D/4N",
+            "img": "https://media.gettyimages.com/photos/galenjak-heart-love-island-croatia-picture-id1002774696?s=612x612",
+            "detail": "Centuries before the Turkish occupation of Greece, back in the 11th-century AD, the little known terrain of Meteora was occupied by monks. The intoxicating combination of rugged cliffs— equal parts history and geological marvels—made it the country’s most dynamic stretch of land."
+        },
+        {
+            "name": "Vacation to the water city of Portugal",
+            "id": 3,
+            "price": "$2000",
+            "plan": "4D/5N",
+            "img": "https://media.gettyimages.com/photos/porto-city-portugal-picture-id871640368?s=612x612",
+            "detail": "Centuries before the Turkish occupation of Greece, back in the 11th-century AD, the little known terrain of Meteora was occupied by monks. The intoxicating combination of rugged cliffs— equal parts history and geological marvels—made it the country’s most dynamic stretch of land."
+        },
+        {
+            "name": "Enjoy the most cheerful skydiving in Dubai",
+            "id": 4,
+            "price": "$1800",
+            "plan": "5D/6N",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1ULbr7OrsmyAaOgxXbZmN0MC5I82Tx-weqxdpaz0eAwvZisAwfk7G2gZ0GkR4bmdy8Z0&usqp=CAU",
+            "detail": "Centuries before the Turkish occupation of Greece, back in the 11th-century AD, the little known terrain of Meteora was occupied by monks. The intoxicating combination of rugged cliffs— equal parts history and geological marvels—made it the country’s most dynamic stretch of land."
+        },
+        {
+            "name": "Hot air ride in Trukey",
+            "id": 5,
+            "price": "$3000",
+            "plan": "5D/3N",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhaoMjUhXN29ZEP-ZXfQ_gEW2KjxOhgwMusM9zpj6nwJrR1535p0Ifpyc78sHOVWXqHkM&usqp=CAU",
+            "detail": "Centuries before the Turkish occupation of Greece, back in the 11th-century AD, the little known terrain of Meteora was occupied by monks. The intoxicating combination of rugged cliffs— equal parts history and geological marvels—made it the country’s most dynamic stretch of land."
+        },
+        {
+            "name": "Feel the peach of Grece",
+            "id": 6,
+            "price": "$4100",
+            "plan": "6D/7N",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHYeUXjpun4lTXeQmBCJzW3Z6rIJ8gwJpYA-SpxyFde2OvGCnTO1az2uOLrN-RFZ_2NhY&usqp=CAU",
+            "detail": "Centuries before the Turkish occupation of Greece, back in the 11th-century AD, the little known terrain of Meteora was occupied by monks. The intoxicating combination of rugged cliffs— equal parts history and geological marvels—made it the country’s most dynamic stretch of land."
+        }
+    ]
+}

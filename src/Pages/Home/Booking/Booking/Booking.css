@@ -1,0 +1,8 @@
+.booking-container{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    
+}
+.booking-page{
+    border: 1 px solid rgb(161, 161, 161);
+}
