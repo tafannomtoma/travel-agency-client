@@ -6,30 +6,32 @@ const Booking = () => {
 
 
     const { serviceId } = useParams();
-    const [servicesDetails, setServicesDetails] = useState([]);
-    const [singleService, setSingleService] = useState({});
+    const [servicesDetails, setServicesDetails] = useState({});
+    // const [singleService, setSingleService] = useState({});
 
     useEffect(() => {
-        fetch('/serviceDetails.json')
+        fetch(`http://localhost:5000/services/${serviceId}`)
             .then(res => res.json())
-            .then(data => setServicesDetails(data.service))
+            .then(data => setServicesDetails(data))
     }, [])
 
-    useEffect(() => {
-        const foundService = servicesDetails.find(service => service.id == serviceId)
-        setSingleService(foundService)
-    }, [servicesDetails]);
+    // useEffect(() => {
+    //     const foundService = servicesDetails.find(service => service.id == serviceId)
+    //     setSingleService(foundService)
+    // }, [servicesDetails]);
 
     return (
         <div className="booking-container">
 
             <div className="booking-page m-5 px-5">
-                <h3>Book Here</h3>
-                <img src={singleService?.img} alt="" />
-                <h3>{singleService?.name}</h3>
-                <h4>{singleService?.plan}</h4>
-                <h4>{singleService?.price}</h4>
-                <p>{singleService?.detail}</p>
+                <h3>Book Here:{serviceId}</h3>
+
+                <img src={servicesDetails.img} alt="" />
+                <h3>{servicesDetails.Name}</h3>
+
+                <h4>Cost:{servicesDetails.price}</h4>
+                <p>Know More:{servicesDetails.description}</p>
+                <button>Place order</button>
             </div>
         </div>
     );

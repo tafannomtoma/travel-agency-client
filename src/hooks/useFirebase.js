@@ -1,6 +1,8 @@
 import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged } from "firebase/auth";
 import { useEffect, useState } from "react";
-import { useHistory, useLocation } from "react-router";
+// import { useHistory, useLocation } from "react-router";
+
+
 import initializeAuthentication from "../Pages/Login/Firebase/firebase.init";
 
 initializeAuthentication();
@@ -8,8 +10,9 @@ initializeAuthentication();
 const useFirebase = () => {
     // const location = useLocation();
     // const history = useHistory();
-    // const url = location.state?.from || '/booking'
-    // history.push(url);
+    // console.log(location.state?.from)
+    // const url = location.state?.from || '/home'
+
 
 
     const [user, setUser] = useState({});
@@ -24,7 +27,7 @@ const useFirebase = () => {
         const googleProvider = new GoogleAuthProvider();
         signInWithPopup(auth, googleProvider)
             .then(result => {
-
+                // history.push(url);
                 setUser(result.user)
 
             })
