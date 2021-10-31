@@ -1,0 +1,19 @@
+.activity-container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 20px;
+   
+}
+.activity-offer{
+    border: 1px solid rgb(206, 204, 204);
+    padding: 20px;
+    margin: 5px;
+}
+@media only screen and (max-width: 688px){
+    .activity-container{
+        display: grid;
+        grid-template-columns:repeat(3, 1fr);
+        
+    }
+          
+}

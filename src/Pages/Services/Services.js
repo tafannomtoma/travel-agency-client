@@ -5,14 +5,15 @@ import './Services.css';
 const Services = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('https://gory-treat-72238.herokuapp.com/services')
             .then(res => res.json())
             .then(data => setServices(data));
 
 
     }, [])
     return (
-        <div id="services">
+        <div id="services mt-5">
+            <h2>Our Services</h2>
             <div className="service-container">
 
                 {

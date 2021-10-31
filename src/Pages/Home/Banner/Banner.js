@@ -5,10 +5,10 @@ import './Banner.css'
 const Banner = () => {
     return (
         <>
-            <Carousel>
+            <Carousel className="mb-5">
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 img-banner"
+                        className="d-block w-100  img-banner"
                         src="https://img.traveltriangle.com/blog/wp-content/uploads/2018/11/Cover-for-best-places-to-visit-in-July-in-the-world.jpg"
                         alt="First slide"
                     />
@@ -31,18 +31,7 @@ const Banner = () => {
                         <Button variant="outline-light">CONTINUE READING</Button>{' '}
                     </Carousel.Caption>
                 </Carousel.Item>
-                {/* <Carousel.Item>
-                    <img
-                        className="d-block w-100 img-banner"
-                        src="https://www.destinasian.com/travel/wp-content/uploads/Krabi-indra-yudhistira-unsplash-Slider.jpg"
-                        alt="Third slide"
-                    />
 
-                    <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </Carousel.Caption>
-                </Carousel.Item> */}
             </Carousel>
         </>
     );

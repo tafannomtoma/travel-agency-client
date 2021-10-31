@@ -3,17 +3,18 @@ import { useEffect, useState } from "react";
 // import { useHistory, useLocation } from "react-router";
 
 
+
 import initializeAuthentication from "../Pages/Login/Firebase/firebase.init";
 
 initializeAuthentication();
 
 const useFirebase = () => {
+
+
     // const location = useLocation();
     // const history = useHistory();
     // console.log(location.state?.from)
-    // const url = location.state?.from || '/home'
-
-
+    // const url = location.state?.from || '/'
 
     const [user, setUser] = useState({});
     const [isLoading, setIsLoading] = useState(true);

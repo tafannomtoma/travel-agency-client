@@ -3,6 +3,31 @@
     grid-template-columns: repeat(2 , 1fr);
     
 }
+
+
 .booking-page{
     border: 1 px solid rgb(161, 161, 161);
 }
+
+.booking-info form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.booking-info input{
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 688px){
+    .booking-container{
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+        
+    }
+          
+}
+
+

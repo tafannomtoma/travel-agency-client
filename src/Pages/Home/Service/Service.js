@@ -8,7 +8,7 @@ const Service = ({ service }) => {
 
     const { _id, Name, description, img, price } = service;
     return (
-        <div>
+        <div id="services" className="mt-5">
             <img style={{ height: "300px", width: "400px" }} src={img} alt="" />
             <h3>{Name}</h3>
             <h5>Price:${price}</h5>
