@@ -9,7 +9,7 @@ const Banner = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100  img-banner"
-                        src="https://img.traveltriangle.com/blog/wp-content/uploads/2018/11/Cover-for-best-places-to-visit-in-July-in-the-world.jpg"
+                        src="https://www.slidesalad.com/wp-content/uploads/2017/02/slide_002-6.jpg"
                         alt="First slide"
                     />
                     <Carousel.Caption>
@@ -21,7 +21,7 @@ const Banner = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100 img-banner"
-                        src="https://www.dubai.com/media/uploads/dubai.com/2010/08/Atlantis%20The%20Palm%20Dubai.jpg"
+                        src="https://www.slidesalad.com/wp-content/uploads/2017/02/slide_001-6.jpg"
                         alt="Second slide"
                     />
 

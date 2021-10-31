@@ -1,12 +1,8 @@
-.img-banner{
-    height: 650px;
-    width: 1280px;
-}
+
 @media only screen and (max-width: 688px){
-    .img-banner{
-        height: 650px;
-    width: 1280px;
-        
-    }
-          
+   
+   /* .img-banner{
+       height:100%;
+       width: 100%;
+   }        */
 }
